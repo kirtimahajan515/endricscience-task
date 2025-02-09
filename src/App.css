@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    height: 150px;
+    background-color: red;
+}
+
+.top-nav{
+    height: 70px;
+    background-color: blue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.hero-content{
+   height: 100vh;
+   background-image: "url('/task/src/assets/image-0016.jpg')";
+}
