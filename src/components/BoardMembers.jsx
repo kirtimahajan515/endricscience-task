@@ -47,7 +47,7 @@ const BoardMembers = () => {
 
         <div
           style={{ marginTop: "20px" }}
-          className="bg-blue-600 text-white mt-16 p-12 min-w-screen h-90 rounded-lg flex flex-col lg:flex-row justify-center items-center gap-12 sm:gap-16 sm:justify-center"
+          className="bg-blue-600 text-white mt-16 p-12 min-w-screen h-90 flex flex-col lg:flex-row justify-center items-center gap-12 sm:gap-16 sm:justify-center"
         >
           <h2 className="text-4xl sm:text-5xl md:text-6xl font-bold text-center mb-8">
             Associated <br />
