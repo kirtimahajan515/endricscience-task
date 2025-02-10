@@ -108,28 +108,27 @@ const NewBooks = () => {
       </div>
 
 
-    {/* Indexing & Services Section */}
-      <div 
-        style={{padding: "0px 50px"}}
-        className="bg-blue-600 text-white mt-16 p-8 md:p-12 h-80 rounded-lg flex flex-col md:flex-row flex-wrap justify-center md:justify-between items-center text-center gap-8">
-       
-        <h2 className="text-3xl sm:text-5xl font-bold leading-tight">
-          Indexing & <br className="md:hidden" /> Services
+{/*     {/* Indexing & Services Section */} */}
+   <div
+        style={{ marginTop: "20px" }}
+        className="bg-blue-600 text-white mt-16 p-12 min-w-screen h-90 rounded-lg flex flex-col lg:flex-row justify-center items-center gap-12 sm:gap-16 sm:justify-center"
+      >
+        <h2 className="text-4xl sm:text-5xl md:text-6xl font-bold text-center mb-8">
+            Indexing & <br className="md:hidden" /> Services
         </h2>
 
-      
-        <div className="flex flex-wrap justify-center gap-6 md:gap-12">
-          <img
-            src={google}
-            alt="Google Scholar"
-            className="w-40 h-24 sm:w-48 sm:h-28 md:w-60 md:h-32 rounded-2xl"
-          />
-
-          <img
-            src={embase}
-            alt="Elsevier"
-            className="w-40 h-24 sm:w-48 sm:h-28 md:w-60 md:h-32 rounded-2xl"
-          />
+        <div className="flex flex-row sm:flex-row justify-center items-center gap-8 sm:gap-12">
+          <div>
+            <img
+              src={google}
+              alt=""
+              className="w-40 sm:w-48 md:w-56 lg:w-64 h-auto rounded-2xl"
+            />
+          </div>
+          <div className="w-40 bg-white sm:w-48 md:w-60 lg:w-74 h-45 flex justify-center items-center rounded-2xl">
+            <img src={embase}
+            alt="Elsevier" className="w-full h-auto rounded-2xl" />
+          </div>
         </div>
       </div>
 
